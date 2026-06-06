@@ -16,4 +16,4 @@ MonoBehaviour:
   description: "\xC9 uma lata... S\xF3... T\xE1 esperando o que?"
   fishSprite: {fileID: -38047475, guid: 1f3b8b50486268147b8d2c8c4dcd5269, type: 3}
   rarity: 50
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 919132149155446097, guid: 426f5e0a0cafbc74d97c74459aae03d1, type: 3}

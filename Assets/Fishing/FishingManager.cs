@@ -6,6 +6,7 @@ public class FishingManager : MonoBehaviour
 
     [SerializeField] private Rigidbody floater;
     [SerializeField] private FishSelectorComponent fishSelector;
+    [SerializeField] private CatchTest catcher;
     [SerializeField] private float fishBiteStrength = 1f;
     [SerializeField] private float reelTimeLimit = 0.75f;
     
@@ -62,6 +63,7 @@ public class FishingManager : MonoBehaviour
         {
             var fish = fishSelector.GetRandomFish();
             Debug.Log($"Caught a {fish.fishName}!");
+            catcher.UnlockFish(fish);
             reelTimer.Stop();
         }
         isFishing = false;   

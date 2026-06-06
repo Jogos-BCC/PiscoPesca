@@ -16,4 +16,4 @@ MonoBehaviour:
   description: "S\xF3 um peixe laranja :)"
   fishSprite: {fileID: 1553690837, guid: 837828c1ce099c5418c60ea471c89b20, type: 3}
   rarity: 50
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 919132149155446097, guid: 758d57551c4c9c04aade492351cbf862, type: 3}

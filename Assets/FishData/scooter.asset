@@ -16,4 +16,4 @@ MonoBehaviour:
   description: Como isso veio parar aqui?
   fishSprite: {fileID: -325555761, guid: 2002f9c186b19bd4c99c530922ac55f7, type: 3}
   rarity: 20
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 919132149155446097, guid: 577aed02ca1c2ce4b9c105fb80d08438, type: 3}

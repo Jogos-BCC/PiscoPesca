@@ -16,4 +16,4 @@ MonoBehaviour:
   description: QUE P*RRA EH ESSA?? UM SUPER TANQUE DE GUERRA!!!!!!!!!!!!!
   fishSprite: {fileID: 1839449564, guid: ec2fd792457de4d4cbb0c28ef8e9e96e, type: 3}
   rarity: 1
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 919132149155446097, guid: c818f526b0283ab4f969b57dd6125be4, type: 3}

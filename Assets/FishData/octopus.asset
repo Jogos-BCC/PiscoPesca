@@ -17,4 +17,4 @@ MonoBehaviour:
     cultura!"
   fishSprite: {fileID: 513830732, guid: 1b57b8d504cb3754198bb1f67bf980fc, type: 3}
   rarity: 30
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 919132149155446097, guid: 1464b0317b389d742a1a33af9f7018e1, type: 3}
