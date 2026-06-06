@@ -15,6 +15,10 @@ public class IndexUI : MonoBehaviour
     public float fadeDuration = 0.25f;
     public KeyCode toggleKey = KeyCode.I;
 
+    [Header("Player Control")]
+    public PlayerMovement playerMovement;
+    public PlayerCam playerCam;
+
     private List<FishCardUI> spawnedCards = new List<FishCardUI>();
     private bool isOpen = false;
     private Coroutine fadeCoroutine;
@@ -48,6 +52,8 @@ public class IndexUI : MonoBehaviour
         PopulateGrid();
         UpdateProgress();
 
+        SetPlayerMovement(false);
+
         if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
         if (codexCanvasGroup != null)
             fadeCoroutine = StartCoroutine(FadeTo(1f));
@@ -56,12 +62,28 @@ public class IndexUI : MonoBehaviour
     public void CloseCodex()
     {
         isOpen = false;
+        SetPlayerMovement(true);
+
         if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
         if (codexCanvasGroup != null)
             fadeCoroutine = StartCoroutine(FadeTo(0f, deactivateAfter: true));
         else
             codexPanel.SetActive(false);
     }
+
+    void SetPlayerMovement(bool enabled)
+    {
+        if (playerMovement != null)
+            playerMovement.canMove = enabled;
+
+        if (playerCam != null)
+            playerCam.canLook = enabled;
+
+        Cursor.lockState = enabled ? CursorLockMode.Locked : CursorLockMode.None;
+        Cursor.visible = !enabled;
+    }
+
+
 
     void PopulateGrid()
     {
