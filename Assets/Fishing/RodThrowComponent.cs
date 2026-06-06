@@ -9,6 +9,7 @@ public class RodThrowComponent : MonoBehaviour
     [SerializeField] private float maxRange = 30f;
     [SerializeField] private float minRange = 4f;
     [SerializeField] private float rangeIncreaseRate = 1f;
+    [SerializeField] private Transform waterLevel;
 
     private bool isFishing => FishingManager.Instance.isFishing;
     
@@ -34,10 +35,10 @@ public class RodThrowComponent : MonoBehaviour
     private void SetTargetRangePosition()
     {
         var floor = transform.position;
-        floor.y = 0;
-        targetRange.transform.position = floor;
         // TODO: Get the camera direction and do that * range
-        targetRange.transform.position += transform.forward * range;
+        floor += transform.forward * range;
+        floor.y = waterLevel.position.y;
+        targetRange.transform.position = floor;
     }
 
     private void IncreaseRange()
