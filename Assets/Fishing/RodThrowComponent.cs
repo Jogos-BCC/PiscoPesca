@@ -82,9 +82,28 @@ public class RodThrowComponent : MonoBehaviour
         {
             isHolding = false;
             range = minRange;
-            
-            FishingManager.Instance.StartFishing();
             SetTargetRangeVisibility(false);
+
+            var origin = transform.position + Vector3.forward;
+            var dir = (targetRange.transform.position - origin).normalized;
+            RaycastHit hit;
+            if (!Physics.Raycast(
+                    origin,
+                    dir,
+                    out hit,
+                    Mathf.Infinity
+                )) return;
+            
+            Debug.DrawRay( 
+                origin,
+                dir * hit.distance,
+                Color.red,
+                10f);
+
+            if (hit.collider.gameObject.tag != "Water" && hit.collider.gameObject.tag != "Floater")
+                return;
+                    
+            FishingManager.Instance.StartFishing();
             SetFloaterVisibility(true);
             floater.transform.position = targetRange.transform.position;
         }
