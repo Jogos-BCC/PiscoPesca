@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+// creditos: https://www.youtube.com/watch?v=f473C43s8nE&
+
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
@@ -11,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public float playerHeight;
     public LayerMask whatIsGround;
     bool grounded;
+    [HideInInspector] public bool canMove = true;
 
     public Transform orientation;
 
@@ -32,7 +35,14 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
-
+        if (!canMove)
+        {
+            horizontalInput = 0;
+            verticalInput = 0;
+            rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+            animator.SetBool("isWalking", false);
+            return;
+        }
         MyInput();
         SpeedControl();
 

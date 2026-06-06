@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+// creditos: https://www.youtube.com/watch?v=f473C43s8nE&
+
 public class PlayerCam : MonoBehaviour
 {
     public float sensX;
@@ -8,6 +10,8 @@ public class PlayerCam : MonoBehaviour
 
     public Transform orientation;
     public Transform playerBody;
+
+    [HideInInspector] public bool canLook = true;
 
     float xRotation;
     float yRotation;
@@ -20,6 +24,7 @@ public class PlayerCam : MonoBehaviour
 
     void Update()
     {
+        if (!canLook) return;
         float mouseX = Mouse.current.delta.x.ReadValue() * Time.deltaTime * sensX;
         float mouseY = Mouse.current.delta.y.ReadValue() * Time.deltaTime * sensY;
 
