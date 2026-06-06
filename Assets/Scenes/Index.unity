@@ -647,8 +647,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 978c16b2cab4872428c06db6553d19a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  fishItem: {fileID: 11400000, guid: d336bcb81b04797438ea9395ed3d6a45, type: 2}
-  fishModelPrefab: {fileID: 919132149155446097, guid: c818f526b0283ab4f969b57dd6125be4, type: 3}
+  fishItem: {fileID: 11400000, guid: c0783ebf5fa510f4b9cb3ad194709ebd, type: 2}
+  fishModelPrefab: {fileID: 919132149155446097, guid: 8de45dd474af6e84a96db9f1878192c2, type: 3}
 --- !u!4 &404412964
 Transform:
   m_ObjectHideFlags: 0
@@ -1239,8 +1239,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: -63}
-  m_SizeDelta: {x: 659, y: 325}
+  m_AnchoredPosition: {x: 2, y: -58}
+  m_SizeDelta: {x: 659, y: 310}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &929910802
 MonoBehaviour:
