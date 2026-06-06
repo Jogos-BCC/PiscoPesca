@@ -61,7 +61,6 @@ public class IndexManager : MonoBehaviour
         caughtFishNames.Clear();
         PlayerPrefs.DeleteKey(SAVE_KEY);
         PlayerPrefs.Save();
-        Debug.Log("[Codex] Progresso limpo!");
     }
 
     [ContextMenu("Registrar Todos (Debug)")]

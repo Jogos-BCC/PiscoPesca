@@ -3,7 +3,22 @@ guid: 448e850ff51add045b5acec39dd78f85
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standardmaterial
+    second: {fileID: 2100000, guid: 36cf62abac7e53542b799a1732b65917, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bolts
+    second: {fileID: 2100000, guid: 030e8a445346845459a5de52c2be45d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shnurki
+    second: {fileID: 2100000, guid: bdb5995569bc2744cbfd4a659dc38c78, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
