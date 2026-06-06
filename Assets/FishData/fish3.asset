@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95520910b9e841488405dc67aafba78, type: 3}
+  m_Name: fish3
+  m_EditorClassIdentifier: Assembly-CSharp::FishItem
+  fishName: peixe laranja
+  description: "S\xF3 um peixe laranja :)"
+  fishSprite: {fileID: 1553690837, guid: 837828c1ce099c5418c60ea471c89b20, type: 3}
+  rarity: 0
+  catchDifficulty: 0.5
+  modelPrefab: {fileID: 0}

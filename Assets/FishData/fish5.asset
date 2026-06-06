@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95520910b9e841488405dc67aafba78, type: 3}
+  m_Name: fish5
+  m_EditorClassIdentifier: Assembly-CSharp::FishItem
+  fishName: Peixe pequeno
+  description: "\xE9 pequeno."
+  fishSprite: {fileID: -2083253561, guid: 81a9fc791b1520940ac44b83301c44eb, type: 3}
+  rarity: 0
+  catchDifficulty: 0.3
+  modelPrefab: {fileID: 0}

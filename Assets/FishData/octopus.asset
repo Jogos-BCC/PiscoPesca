@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95520910b9e841488405dc67aafba78, type: 3}
+  m_Name: octopus
+  m_EditorClassIdentifier: Assembly-CSharp::FishItem
+  fishName: Polvo
+  description: "Sabia que o polvo tem 3 cora\xE7\xF5es? Esse jogo tamb\xE9m \xE9
+    cultura!"
+  fishSprite: {fileID: 513830732, guid: 1b57b8d504cb3754198bb1f67bf980fc, type: 3}
+  rarity: 1
+  catchDifficulty: 0.2
+  modelPrefab: {fileID: 0}
