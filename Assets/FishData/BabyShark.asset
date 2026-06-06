@@ -15,5 +15,5 @@ MonoBehaviour:
   fishName: Baby Shark
   description: "Um tubar\xE3o pequenininho..."
   fishSprite: {fileID: -1343587901, guid: 7f805ee021f76f64b95a75f4097f1035, type: 3}
-  rarity: 4
-  catchDifficulty: 0.01
+  rarity: 1
+  modelPrefab: {fileID: 0}

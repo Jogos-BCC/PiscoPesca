@@ -15,6 +15,5 @@ MonoBehaviour:
   fishName: Peixe pequeno
   description: "\xE9 pequeno."
   fishSprite: {fileID: -2083253561, guid: 81a9fc791b1520940ac44b83301c44eb, type: 3}
-  rarity: 0
-  catchDifficulty: 0.3
+  rarity: 50
   modelPrefab: {fileID: 0}

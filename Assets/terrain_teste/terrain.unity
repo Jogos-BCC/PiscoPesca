@@ -4365,6 +4365,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ec1c69bd47ad864f96cc2b516f6cd4b, type: 3}
+--- !u!1 &435210279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 224383623291509957, guid: 5b4735343532a9e48b247a9d4782a110, type: 3}
+  m_PrefabInstance: {fileID: 575042672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &435210282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435210279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb30537c9bea72947aac55077453e148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FishSelectorComponent
+  fishItems:
+  - {fileID: 11400000, guid: c0783ebf5fa510f4b9cb3ad194709ebd, type: 2}
+  - {fileID: 11400000, guid: 3d6333e8a29161a4d8b936de47e1009f, type: 2}
+  - {fileID: 11400000, guid: 6529b47cf36808c42a3655f6149226a2, type: 2}
+  - {fileID: 11400000, guid: 65014a07714168e4db37270a7feaf9c1, type: 2}
+  - {fileID: 11400000, guid: bee0a86e98179b84b8d51a1468f7e8b0, type: 2}
+  - {fileID: 11400000, guid: 011bec1d1d5ef8241a0b6ec9cf2165fd, type: 2}
+  - {fileID: 11400000, guid: 8c7cafdb726799c4fa97b78d822bab8c, type: 2}
+  - {fileID: 11400000, guid: cdfd7fcd6aae7be49a769943afe56c60, type: 2}
+  - {fileID: 11400000, guid: 468464c469475bc48a3d178ada0d02fe, type: 2}
+  - {fileID: 11400000, guid: 8c03afa2c586c2c49acae0266c8b8aea, type: 2}
+  - {fileID: 11400000, guid: 87c83a21fca54884cb4baf5baa128f79, type: 2}
+  - {fileID: 11400000, guid: d336bcb81b04797438ea9395ed3d6a45, type: 2}
+  - {fileID: 11400000, guid: 0eae419a7e45fbb4686e65e2db5b2e97, type: 2}
 --- !u!4 &445298001 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9048529922822917024, guid: 0ec1c69bd47ad864f96cc2b516f6cd4b, type: 3}
@@ -5819,6 +5850,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1072859370447595588, guid: 5b4735343532a9e48b247a9d4782a110, type: 3}
+      propertyPath: fishSelector
+      value: 
+      objectReference: {fileID: 435210282}
     - target: {fileID: 1833855769470367796, guid: 5b4735343532a9e48b247a9d4782a110, type: 3}
       propertyPath: m_LocalPosition.x
       value: 291.93454
@@ -5870,7 +5905,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 224383623291509957, guid: 5b4735343532a9e48b247a9d4782a110, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 435210282}
   m_SourcePrefab: {fileID: 100100000, guid: 5b4735343532a9e48b247a9d4782a110, type: 3}
 --- !u!1 &575042673 stripped
 GameObject:
