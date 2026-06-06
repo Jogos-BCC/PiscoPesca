@@ -10,6 +10,7 @@ public class RodThrowComponent : MonoBehaviour
     [SerializeField] private float minRange = 4f;
     [SerializeField] private float rangeIncreaseRate = 1f;
     [SerializeField] private Transform waterLevel;
+    [SerializeField] private AudioSource fishingRodSound;
 
     private bool isFishing => FishingManager.Instance.isFishing;
     
@@ -56,6 +57,8 @@ public class RodThrowComponent : MonoBehaviour
     private void SetFloaterVisibility(bool enabled)
     {
         floater.GetComponent<MeshRenderer>().enabled = enabled;
+        if (enabled)
+            floater.GetComponent<AudioSource>().Play();
     }
 
     public void Throw(InputAction.CallbackContext context)
@@ -66,6 +69,7 @@ public class RodThrowComponent : MonoBehaviour
                 return;
 
             FishingManager.Instance.StopFishing();
+            fishingRodSound.Play();
             SetTargetRangeVisibility(false);
             SetFloaterVisibility(false);
             return;

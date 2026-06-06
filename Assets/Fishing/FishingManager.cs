@@ -6,6 +6,8 @@ public class FishingManager : MonoBehaviour
 
     [SerializeField] private Rigidbody floater;
     [SerializeField] private FishSelectorComponent fishSelector;
+    [SerializeField] private AudioSource fishPickupSound;
+    [SerializeField] private AudioSource fishBiteSound;
     [SerializeField] private CatchTest catcher;
     [SerializeField] private float fishBiteStrength = 1f;
     [SerializeField] private float reelTimeLimit = 0.75f;
@@ -36,6 +38,7 @@ public class FishingManager : MonoBehaviour
         {
             reelTimer.Restart();
             fishBiteTimer.Stop();
+            fishBiteSound.Play();
             floater.AddForce(Vector3.down * fishBiteStrength, ForceMode.Impulse);
             Debug.Log("Fish bite!");
         }
@@ -63,6 +66,7 @@ public class FishingManager : MonoBehaviour
         {
             var fish = fishSelector.GetRandomFish();
             Debug.Log($"Caught a {fish.fishName}!");
+            fishPickupSound.Play();
             catcher.UnlockFish(fish);
             reelTimer.Stop();
         }
