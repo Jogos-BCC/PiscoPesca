@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FishItem
   fishName: Peixe-lanterna
   description: "Cad\xEA o peixinho? ACHOOU"
-  fishSprite: {fileID: 0}
+  fishSprite: {fileID: 1453417559, guid: 3048017c29574564d860ca396066af48, type: 3}
   rarity: 0
   catchDifficulty: 0.3
+  modelPrefab: {fileID: 0}

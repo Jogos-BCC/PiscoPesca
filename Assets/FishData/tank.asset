@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b95520910b9e841488405dc67aafba78, type: 3}
   m_Name: tank
   m_EditorClassIdentifier: Assembly-CSharp::FishItem
-  fishName: SUPER TANQUE DE GUERRA
-  description: "SIM!!! \xC9 UM SUPER TANQUE DE GUERRA 3000"
-  fishSprite: {fileID: 0}
+  fishName: SUPER TANQUE
+  description: QUE P*RRA EH ESSA?? UM SUPER TANQUE DE GUERRA!!!!!!!!!!!!!
+  fishSprite: {fileID: 1839449564, guid: ec2fd792457de4d4cbb0c28ef8e9e96e, type: 3}
   rarity: 4
   catchDifficulty: 0.001
+  modelPrefab: {fileID: 0}

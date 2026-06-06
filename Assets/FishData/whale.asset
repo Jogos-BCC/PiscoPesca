@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b95520910b9e841488405dc67aafba78, type: 3}
   m_Name: whale
   m_EditorClassIdentifier: Assembly-CSharp::FishItem
-  fishName: Peixe Desconhecido
-  description: Um peixe misterioso...
-  fishSprite: {fileID: 0}
-  rarity: 0
-  catchDifficulty: 0.3
+  fishName: Baleia assassina
+  description: "\xC9 um milagre voc\xEA ter pescado ela e ter sa\xEDdo vivo..."
+  fishSprite: {fileID: 1190722063, guid: c08684c47b8032f4a8e4bffcc00a7f15, type: 3}
+  rarity: 3
+  catchDifficulty: 0.1
+  modelPrefab: {fileID: 0}

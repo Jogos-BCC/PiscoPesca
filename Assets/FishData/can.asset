@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FishItem
   fishName: Lata
   description: "\xC9 uma lata... S\xF3... T\xE1 esperando o que?"
-  fishSprite: {fileID: 0}
+  fishSprite: {fileID: -38047475, guid: 1f3b8b50486268147b8d2c8c4dcd5269, type: 3}
   rarity: 0
   catchDifficulty: 0.5
+  modelPrefab: {fileID: 0}

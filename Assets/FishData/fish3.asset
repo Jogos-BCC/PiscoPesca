@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FishItem
   fishName: peixe laranja
   description: "S\xF3 um peixe laranja :)"
-  fishSprite: {fileID: 0}
+  fishSprite: {fileID: 1553690837, guid: 837828c1ce099c5418c60ea471c89b20, type: 3}
   rarity: 0
   catchDifficulty: 0.5
+  modelPrefab: {fileID: 0}
