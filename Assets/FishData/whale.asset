@@ -16,4 +16,4 @@ MonoBehaviour:
   description: "\xC9 um milagre voc\xEA ter pescado ela e ter sa\xEDdo vivo..."
   fishSprite: {fileID: 1190722063, guid: c08684c47b8032f4a8e4bffcc00a7f15, type: 3}
   rarity: 10
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 919132149155446097, guid: f1e21aafc04737a458ca8564a38c1c6d, type: 3}

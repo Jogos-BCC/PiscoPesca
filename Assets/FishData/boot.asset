@@ -16,4 +16,4 @@ MonoBehaviour:
   description: "Tenho certeza que \xE9 um peixe!"
   fishSprite: {fileID: -1560071067, guid: c5c191eec771c72429f946cda83f7eb7, type: 3}
   rarity: 50
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 919132149155446097, guid: 448e850ff51add045b5acec39dd78f85, type: 3}

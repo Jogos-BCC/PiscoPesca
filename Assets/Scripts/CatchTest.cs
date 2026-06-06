@@ -2,12 +2,10 @@ using UnityEngine;
 
 public class CatchTest : MonoBehaviour
 {
-    public FishItem fishItem;
-    public GameObject fishModelPrefab;
-
-    void Update()
+    [SerializeField] private CatchRevealUI revealUI;
+    public void UnlockFish(FishItem fishItem)
     {
-        if (Input.GetKeyDown(KeyCode.T))
-            FindObjectOfType<CatchRevealUI>().ShowCatch(fishItem, fishModelPrefab);
+        Debug.Log($"{fishItem.modelPrefab}");
+        revealUI.ShowCatch(fishItem, fishItem.modelPrefab);
     }
 }

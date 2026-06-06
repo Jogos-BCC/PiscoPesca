@@ -16,4 +16,4 @@ MonoBehaviour:
   description: "Um tubar\xE3o pequenininho..."
   fishSprite: {fileID: -1343587901, guid: 7f805ee021f76f64b95a75f4097f1035, type: 3}
   rarity: 1
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 919132149155446097, guid: 8de45dd474af6e84a96db9f1878192c2, type: 3}

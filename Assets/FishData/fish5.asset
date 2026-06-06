@@ -16,4 +16,4 @@ MonoBehaviour:
   description: "\xE9 pequeno."
   fishSprite: {fileID: -2083253561, guid: 81a9fc791b1520940ac44b83301c44eb, type: 3}
   rarity: 50
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 919132149155446097, guid: e8081d67fb5e90348b22b2627148de84, type: 3}

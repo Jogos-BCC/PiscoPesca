@@ -16,4 +16,4 @@ MonoBehaviour:
   description: "Onde est\xE1 o resto da tripula\xE7\xE3o?"
   fishSprite: {fileID: -1154063328, guid: 19d88e4ca6ee9024fa7cc12d33ac4488, type: 3}
   rarity: 10
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 919132149155446097, guid: 0c29717dd12bf254aa05d66ecc05b617, type: 3}

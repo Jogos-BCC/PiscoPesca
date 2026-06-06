@@ -16,4 +16,4 @@ MonoBehaviour:
   description: "Peixe mais b\xE1sico de todos os tempos"
   fishSprite: {fileID: 1114795886, guid: cfcc43f1240a2f942a48dbac87778d3b, type: 3}
   rarity: 50
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 919132149155446097, guid: 3231841c40fdef44e85e19f0c0e359cd, type: 3}

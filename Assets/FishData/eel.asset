@@ -16,4 +16,4 @@ MonoBehaviour:
   description: Aqui do lado. por exemplo, tem AIAI
   fishSprite: {fileID: 1710623868, guid: f5ea814a3f02cec4081de4ffc7a43c20, type: 3}
   rarity: 20
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 919132149155446097, guid: d4ada294dfba2a64d90e45e31c183eec, type: 3}
