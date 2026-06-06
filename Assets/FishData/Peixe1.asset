@@ -15,7 +15,5 @@ MonoBehaviour:
   fishName: "Til\xE1pia"
   description: "Peixe mais b\xE1sico de todos os tempos"
   fishSprite: {fileID: 1114795886, guid: cfcc43f1240a2f942a48dbac87778d3b, type: 3}
-  rarity: 0
-  minWeight: 0.5
-  maxWeight: 5
-  catchDifficulty: 0.3
+  rarity: 50
+  modelPrefab: {fileID: 0}

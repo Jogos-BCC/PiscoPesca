@@ -16,6 +16,5 @@ MonoBehaviour:
   description: "Sabia que o polvo tem 3 cora\xE7\xF5es? Esse jogo tamb\xE9m \xE9
     cultura!"
   fishSprite: {fileID: 513830732, guid: 1b57b8d504cb3754198bb1f67bf980fc, type: 3}
-  rarity: 1
-  catchDifficulty: 0.2
+  rarity: 30
   modelPrefab: {fileID: 0}

@@ -7,16 +7,15 @@ public class FishItem : ScriptableObject
     public string description = "Um peixe misterioso...";
     public Sprite fishSprite;
     public Rarity rarity = Rarity.Comum;
-    public float catchDifficulty = 0.3f;
     
     public GameObject modelPrefab;
 }
 
 public enum Rarity
 {
-    Comum,
-    Incomum,
-    Raro,
-    Épico,
-    Lendário
+    Comum = 50,
+    Incomum = 30,
+    Raro = 20,
+    Épico = 10,
+    Lendário = 1
 }
