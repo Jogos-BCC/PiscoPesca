@@ -5,9 +5,9 @@ using TMPro;
 public class CatchRevealUI : MonoBehaviour
 {
     public GameObject revealPanel;
-    public RawImage fishRenderImage;
     public TextMeshProUGUI fishNameText;
     public TextMeshProUGUI rarityText;
+    public TextMeshProUGUI descriptionText;
     public Transform modelSpawnPoint;
     public float rotationSpeed = 90f;
 
@@ -32,6 +32,7 @@ public class CatchRevealUI : MonoBehaviour
 
         fishNameText.text = fish.fishName;
         rarityText.text = fish.rarity.ToString();
+        descriptionText.text = fish.description;
 
         if (currentModel != null) Destroy(currentModel);
         currentModel = Instantiate(modelPrefab, modelSpawnPoint.position, Quaternion.identity);
