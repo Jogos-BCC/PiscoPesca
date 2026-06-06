@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FishItem
   fishName: Scooter
   description: Como isso veio parar aqui?
-  fishSprite: {fileID: 0}
+  fishSprite: {fileID: -325555761, guid: 2002f9c186b19bd4c99c530922ac55f7, type: 3}
   rarity: 2
   catchDifficulty: 0.1
+  modelPrefab: {fileID: 0}

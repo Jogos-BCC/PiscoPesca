@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FishItem
   fishName: Enguia
   description: Aqui do lado. por exemplo, tem AIAI
-  fishSprite: {fileID: 0}
+  fishSprite: {fileID: 1710623868, guid: f5ea814a3f02cec4081de4ffc7a43c20, type: 3}
   rarity: 2
   catchDifficulty: 0.2
+  modelPrefab: {fileID: 0}
